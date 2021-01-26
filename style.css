@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#mainpage{
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+}
+#image{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background: url(image.png);
+    background-position:inherit;
+    background-repeat: no-repeat;
+    background-size: 1560px;
+    }
+    #blur{
+        position: absolute;
+        width: 100%;
+        height: 83%;
+        top: 120px;
+        background: rgba(0, 0, 0, 0.26);
+    }
+    
+    #head h6{
+        position: absolute;
+    width: 188px;
+    height: 113px;
+    left: 92px;
+    top: 304px;
+    
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 112px;
+    color: #718A59;
+    
+    }
+    #head h5{
+        position: absolute;
+    width: 188px;
+    height: 113px;
+    left: 92px;
+    top: 385px;
+    
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 112px;
+    color: #B77F25;
+    }
+    #head h4{
+        position: absolute;
+        width: 188px;
+        height: 113px;
+        left: 92px;
+        top: 465px;
+        
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 96px;
+        line-height: 112px;
+        color: #85334C;
+    
+    }
+    #shopnow{
+        position: absolute;
+    width: 185px;
+    height: 55px;
+    left: 91px;
+    top: 580px;
+    
+    background: #BD4A84;
+    border-radius: 30px;
+    }
+    #shopnow p{
+        position: absolute;
+    width: 100px;
+    height: 25px;
+    left: 40px;
+    top: 15px;
+    
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    
+    color: #F4F4F4;
+    }
+#products{
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+    background-image: url(https://images.unsplash.com/photo-1581022295432-7fabcc628434?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+#row1{
+    width: 100%;
+    height: 50%;
+    /*background-color: purple;*/
+    display: flex;
+}
+
+#row2{
+    width: 100%;
+    height: 50%;
+    /*background-color: black;*/
+    display: flex;
+}
+
+.circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 175, 25);
+}
+
+.overlay{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: black;
+    opacity: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#BD4A84;
+    position: relative;
+    text-align: center;
+}
+
+
+
+#circle1{
+    background-image: url(https://www.brandzwatch.com/wp-content/uploads/2020/03/Lakme-1280x720.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+
+#overlay1:hover{
+    background-image: url(https://www.brandzwatch.com/wp-content/uploads/2020/03/Lakme-1280x720.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 
+    inset 0 0 0 16px #BD4A84,
+    0 1px 2px rgba(0,0,0,0.1);
+     
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    opacity: 1;
+    color:black;
+}
+
+#circle2{
+    background-image: url(https://lianadesu.com/wp-content/uploads/2019/09/best-maybelline-products-1-scaled.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#overlay2:hover{
+    background-image: url(https://lianadesu.com/wp-content/uploads/2019/09/best-maybelline-products-1-scaled.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 
+    inset 0 0 0 16px #BD4A84,
+    0 1px 2px rgba(0,0,0,0.1);
+     
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    opacity: 1;
+    color: black;
+}
+
+#circle3{
+    background-image: url(https://media.womensweekly.com.sg/public/2019/11/SW0318_Web-Banner_CoverLook_FA.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#overlay3:hover{
+    background-image: url(https://media.womensweekly.com.sg/public/2019/11/SW0318_Web-Banner_CoverLook_FA.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 
+    inset 0 0 0 16px #BD4A84,
+    0 1px 2px rgba(0,0,0,0.1);
+     
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    opacity: 1;
+    color: black;
+}
+
+#circle5{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/51d151b1e4b05d425c859fc9/1573154929315-HX59VMJWGTCI7RHF0YJ9/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/pink-sugar_all-time-favorites_review-philippines_2019-14.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+#overlay5:hover{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/51d151b1e4b05d425c859fc9/1573154929315-HX59VMJWGTCI7RHF0YJ9/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/pink-sugar_all-time-favorites_review-philippines_2019-14.JPG);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 
+    inset 0 0 0 16px #BD4A84,
+    0 1px 2px rgba(0,0,0,0.1);
+     
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    opacity: 1;
+    color:black;
+}
+
+#circle6{
+    background-image: url(https://www.industryglobalnews24.com/images/kay-beauty.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#overlay6:hover{
+    background-image: url(https://www.industryglobalnews24.com/images/kay-beauty.jpeg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 
+    inset 0 0 0 16px #BD4A84,
+    0 1px 2px rgba(0,0,0,0.1);
+     
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    opacity: 1;
+    color: black;
+}
+
+#circle7{
+    background-image: url(https://cdn.images.express.co.uk/img/dynamic/12/590x/rose-gold-beauty-product-Amy-Packer-575870.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#overlay7:hover{
+    background-image: url(https://cdn.images.express.co.uk/img/dynamic/12/590x/rose-gold-beauty-product-Amy-Packer-575870.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 
+    inset 0 0 0 16px #BD4A84,
+    0 1px 2px rgba(0,0,0,0.1);
+     
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    opacity: 1;
+    color: black;
+}
+
+
+#footer{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(224, 30, 62);
+}
+
+#one{
+    width: 100%;
+    height: 60%;
+    background-color: black;
+    background-image: url(https://wallpaperaccess.com/full/1190462.jpg);
+    background-size: 900px;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: pink;
+    font-size: 10px;
+    padding-top: 20px;
+}
+
+#one h1{
+    margin-top: 50px;
+    margin-left: 43%;
+}
+
+#one p{
+    margin-top: 5px;
+    margin-left: 20px;
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 14px;
+}
+
+#one h5{
+    text-align: center;
+    line-height: 15px;
+    font-size: 11px;
+}
+
+#second{
+    width: 100%;
+    height: 40%;
+    background-color: green;
+    display: flex;
+}
+
+#footerImg{
+    width: 30%;
+    height: 100%;
+    background-color: hotpink;
+    background-image: url(https://www.lorealparisusa.com/~/media/images/lop/category%20data/product%20spotlight/makeup/loreal-paris-makeup-lip-rouge-signature-spotlight-luma-grothe-s.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 5px solid #ffffff;
+}
+
+#footerContent{
+    width: 70%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.footer{
+    width: 30%;
+    height: 80%;
+    /*background-color: rgb(146, 236, 191);*/
+    margin-left: 25px;
+}
+
+.footer h2{
+    text-align: center;
+    margin-top: 10px;
+    color:rgb(224, 30, 62);
+    margin-bottom: 15px;
+    
+}
+
+.footer p{
+   color: #e4b6b6;;
+   font-size: 16px;
+}
+
+#content{
+    display: flex;
+    justify-content: space-between;
+}
+
+#content h6{
+    color: #e4b6b6;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+#ourStore{
+    color: #ffffff;
+}
+
+#icons{
+    text-align: center;
+    margin-top: 22px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    text-decoration: none;
+    margin-left: 18px
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+}
+  
+.fa-instagram {
+    background: rgb(240, 49, 80);
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+}
+  
+
+
+
+
